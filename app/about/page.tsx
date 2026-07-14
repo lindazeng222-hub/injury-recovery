@@ -16,7 +16,8 @@ export default function AboutPage() {
 
       <div className="space-y-6 text-[#A1A1AA] leading-relaxed text-base">
         <p>
-          Hi, I&apos;m a 15-year-old high school athlete who injured my knee. When my
+          Hi, I&apos;m a 15-year-old high school athlete who tore my meniscus playing tennis. 
+          I felt lost once the sport I love got stripped away from me. When my
           physical therapy started, I went looking for a website that had
           everything in one place — clear recovery guides, real rehab videos, and
           a community of people who&apos;d been through the same thing.
@@ -25,14 +26,14 @@ export default function AboutPage() {
           I couldn&apos;t find it. So I built it.
         </p>
         <p>
-          InjuryInsight is my passion project. Every injury guide is based on
+          InjuryInsight is the website I needed when I got injured. Every injury guide is based on
           peer-reviewed rehab protocols and vetted physical therapy resources. The
           community links go to real, active subreddits with thousands of members
           — people who share their recovery wins, setbacks, and hard-won advice
           every day.
         </p>
         <p>
-          My goal is to make this the first place an injured athlete goes — not
+          My goal is to make this the first place an injured athlete, especiall teen goes — not
           to replace your physical therapist, but to help you understand what
           you&apos;re going through and feel less alone on the road back.
         </p>
