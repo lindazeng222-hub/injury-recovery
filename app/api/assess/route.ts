@@ -57,7 +57,7 @@ export async function POST(request: Request) {
   const trimmedMessages = messages.slice(-20);
 
   const anthropic = new Anthropic({
-    apiKey: process.env.ANTHROPIC_API_KEY?.trim(),
+    apiKey: process.env.ANTHROPIC_API_KEY?.replace(/\s/g, ""),
   });
 
   const stream = new ReadableStream({
