@@ -56,7 +56,9 @@ export async function POST(request: Request) {
   // Guard against very long conversations hitting context limits
   const trimmedMessages = messages.slice(-20);
 
-  const anthropic = new Anthropic();
+  const anthropic = new Anthropic({
+    apiKey: process.env.ANTHROPIC_API_KEY?.trim(),
+  });
 
   const stream = new ReadableStream({
     async start(controller) {
