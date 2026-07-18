@@ -30,7 +30,7 @@ Available injuries:
 - Tennis Elbow → /injuries/tennis-elbow (elbow, mild–moderate, 6–12 weeks)
 - Shin Splints → /injuries/shin-splints (lower leg, mild, 2–6 weeks)
 
-SURGERY: Only mention surgery as a possibility for complete ACL tears in active athletes, full-thickness rotator cuff tears, or fractures requiring fixation. Do not speculate about surgery for other injuries unless the user asks.
+SURGERY: Always weight out the pros and cons of surgery. Only talk about surgery for injuries that may need it and recommend it more for atheletes.
 
 Always end your final assessment message with this line on its own paragraph:
 *Remember: I'm an AI, not a doctor — please follow up with a medical professional for a proper diagnosis and treatment plan.*`;
