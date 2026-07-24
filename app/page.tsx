@@ -70,33 +70,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* AI Checker CTA */}
-      <section className="max-w-7xl mx-auto px-5 sm:px-8 py-16 pt-0">
-        <div className="bg-[#121212] border border-[#FF3B30]/30 rounded-sm p-8 md:p-12 relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#FF3B30]/5 to-transparent pointer-events-none" />
-          <div className="relative z-10 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-            <div>
-              <p className="text-xs uppercase tracking-[0.3em] font-bold text-[#FF3B30] mb-3">
-                New · AI-Powered
-              </p>
-              <h2 className="font-heading text-4xl md:text-5xl text-white uppercase tracking-tight mb-3">
-                Not Sure What You Have?
-              </h2>
-              <p className="text-[#A1A1AA] max-w-lg leading-relaxed">
-                Describe your symptoms and our AI will help you figure out your next step —
-                home rest, PT, doctor, or ER. Built for teen athletes.
-              </p>
-            </div>
-            <Link
-              href="/assess"
-              className="inline-flex items-center gap-2 bg-[#FF3B30] text-white px-8 py-4 rounded-sm font-medium hover:bg-[#E0352A] transition-colors whitespace-nowrap flex-shrink-0"
-            >
-              Try AI Symptom Checker <ArrowRight size={16} />
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* Featured injuries */}
       <section className="max-w-7xl mx-auto px-5 sm:px-8 py-16 pt-0">
         <p className="text-xs uppercase tracking-[0.3em] font-bold text-[#FF3B30] mb-3">
