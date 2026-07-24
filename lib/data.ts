@@ -7,40 +7,50 @@ export const INJURIES: Injury[] = [
     body_part: "Knee",
     severity: "Severe",
     recovery_time: "6–9 months",
-    tagline: "The comeback trail for a torn anterior cruciate ligament.",
+    tagline: "The comeback journey for a torn anterior cruciate ligament.",
     description:
-      "The anterior cruciate ligament (ACL) stabilizes the knee during cutting and pivoting movements. A tear commonly happens during sudden stops, changes in direction, or awkward landings. Recovery focuses on restoring range of motion, rebuilding quad and hamstring strength, and progressive return-to-sport drills.",
+      "The anterior cruciate ligament (ACL) stabilizes the knee during cutting and pivoting movements. A tear commonly happens during sudden stops, changes in direction, or awkward landings. There are surgical and non-surgical approaches to recovery and the route you take depends on activity level, age, symptoms, and long-term goals. Most teens will go the surgical route and the recovery road map for ACL reconstruction surgery is down below. Even then, there are still many decisions to make such as what graft to get and when to get surgery.",
     thumbnail:
       "https://images.pexels.com/photos/29807420/pexels-photo-29807420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     phases: [
       {
-        title: "Acute & Pre-Hab",
-        duration: "Week 0–2",
+        title: "Pre-Hab",
+        duration: "Weeks 0–Surgery Date",
         description:
-          "Control swelling with RICE, restore full knee extension, and re-activate the quadriceps with isometric holds.",
+          "Reduce swelling, restore ful range of motion, rebuild quad and hamstring strength. Undergoing proper pre-hab generall results in better post-operative outcomes
+          Exercises: Quadricep sets, straight leg raises, gentle hamstring/calf stretches.",
       },
       {
-        title: "Early Strength",
-        duration: "Week 2–8",
+        title: "Early Protection & Recovery",
+        duration: "Weeks 0-2 after surgery",
         description:
-          "Regain full range of motion, begin closed-chain strengthening (mini squats, leg press) and normalize gait.",
+          "Protect graft, manage pain and swelling, restore full pasive knee extension, re-activate the quadriceps.
+          Milestones: Achieving 0° knee extension, bending to 90°
+          Note: This is just an estimated timeline, some may move at a slower or faster pace.",
       },
       {
-        title: "Progressive Loading",
-        duration: "Month 2–4",
+        title: "Range of motion & Strength",
+        duration: "Weeks 2–6",
         description:
-          "Build single-leg strength, introduce controlled plyometrics and balance work.",
+          "Focus on gaining full range of motion, single-leg balancing, and foundational lower-body strength
+          Excercises: Squats, leg presses, step-ups, stationary biking, balance drills",
       },
       {
-        title: "Return to Sport",
-        duration: "Month 5–9",
+        title: "Advanced Strength & Initial Running",
+        duration: "Months 2-4",
         description:
-          "Sport-specific agility, cutting drills, and clearance testing before full competition.",
+          "Focus on gaining more symmetrical lower body strength, eccentric control, and dynamic balance.
+          Once quadricep strength reaches at least 70% of the uninjured leg, straight-line light jogging can start. Only if strength and control criteria are met",
       },
+      {
+        title: "Return to Sport Testing & gaining confidence",
+        duration: "Months 6-12+",
+        description:
+          "Focus on gaining pre-surgery strength, explosive power, psychological rediness, and begin practicing certain aspects of sport. Criteria for return to sport clearance: Greater than 90% score on single-leg hop test(distance, height, and landing). Able to preform cutting and pivoting movements pain free. Surgeon and physical therapist approval.",
     ],
     videos: [
-      { title: "ACL Rehab Early Stage Exercises", youtube_id: "1o5tSHItr3A" },
-      { title: "Return to Sport Plyometrics", youtube_id: "kZzYUE0q2Qw" },
+      { title: "ACL Rehab Early Stage Exercises", youtube_id: "https://www.youtube.com/watch?v=GlmphYGAyBg" },
+      { title: "Return to Sport Plyometrics", youtube_id: "https://www.youtube.com/watch?v=dAyfCvPpk4g" },
     ],
     tips: [
       "Never skip the pre-hab phase — full extension early prevents long-term stiffness.",
@@ -59,7 +69,7 @@ export const INJURIES: Injury[] = [
     description:
       "An ankle sprain occurs when the ligaments supporting the ankle stretch or tear, usually from rolling the foot inward. Most heal well with progressive loading, balance training, and proprioception work to prevent re-injury.",
     thumbnail:
-      "https://images.pexels.com/photos/4506109/pexels-photo-4506109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://deltaorthosports.com/wp-content/uploads/2025/06/Ankle-Sprains.jpeg",
     phases: [
       {
         title: "Protection",
@@ -113,7 +123,7 @@ export const INJURIES: Injury[] = [
     description:
       "Hamstring strains range from mild (grade 1) to severe (grade 3 tear) and are among the most common sprint injuries. Recovery emphasizes eccentric strengthening, progressive loading, and sport-specific running mechanics.",
     thumbnail:
-      "https://images.pexels.com/photos/3766111/pexels-photo-3766111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://cdn.aarp.net/content/dam/aarp/health/healthy-living/2022/04/1140-hamstring-injury.jpg,
     phases: [
       {
         title: "Acute Phase",
