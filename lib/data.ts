@@ -59,13 +59,13 @@ export const INJURIES: Injury[] = [
     slug: "ankle-sprain",
     name: "Ankle Sprain",
     body_part: "Ankle",
-    severity: "Mild-Moderate",
-    recovery_time: "2-6 weeks",
+    severity: "Mild-Severe",
+    recovery_time: "2-12 weeks",
     tagline: "Rolling back to stable, confident footwork.",
     description:
-      "An ankle sprain occurs when the ligaments supporting the ankle stretch or tear, usually from rolling the foot inward. Most heal well with progressive loading, balance training, and proprioception work to prevent re-injury.",
+      "An ankle sprain occurs when the ligaments supporting the ankle stretch or tear, usually from rolling the foot inward. Most do not require surgery and heal well with progressive loading, balance training, and proprioception work to prevent re-injury. Listed below is the average recovery timeline for a grade 2 ankle sprain.",
     thumbnail:
-      "https://deltaorthosports.com/wp-content/uploads/2025/06/Ankle-Sprains.jpeg",
+      "https://deltaorthosports.com/wp-content/uploads/2025/06/Ankle-Sprains.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     phases: [
       {
         title: "Protection",
@@ -95,11 +95,11 @@ export const INJURIES: Injury[] = [
     videos: [
       {
         title: "Ankle Sprain Rehab Progression",
-        youtube_id: "Gxk-CGVGqUc",
+        youtube_id: "https://www.youtube.com/watch?v=ga_OAPf6IOI&t=317s",
       },
       {
-        title: "Balance & Proprioception Drills",
-        youtube_id: "4W9Y2R3rHkE",
+        title: "Balance and proprioception drills",
+        youtube_id: "https://www.youtube.com/watch?v=itnkeBmuXho",
       },
     ],
     tips: [
@@ -119,7 +119,7 @@ export const INJURIES: Injury[] = [
     description:
       "Hamstring strains range from mild (grade 1) to severe (grade 3 tear) and are among the most common sprint injuries. Recovery emphasizes eccentric strengthening, progressive loading, and sport-specific running mechanics.",
     thumbnail:
-      "https://cdn.aarp.net/content/dam/aarp/health/healthy-living/2022/04/1140-hamstring-injury.jpg",
+      "https://cdn.aarp.net/content/dam/aarp/health/healthy-living/2022/04/1140-hamstring-injury.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     phases: [
       {
         title: "Acute Phase",
@@ -147,12 +147,12 @@ export const INJURIES: Injury[] = [
     ],
     videos: [
       {
-        title: "Hamstring Strain Rehab Guide",
-        youtube_id: "2OQ3QcEiNoE",
+        title: "Hamstring Strain Rehab Excercises Guide",
+        youtube_id: "https://www.youtube.com/watch?v=QvV3GZ2uuNk",
       },
       {
         title: "Nordic Hamstring Curl Tutorial",
-        youtube_id: "kEqS5NON2bA",
+        youtube_id: "https://www.youtube.com/watch?v=_e9vFU9-tkcA",
       },
     ],
     tips: [
@@ -170,9 +170,9 @@ export const INJURIES: Injury[] = [
     recovery_time: "3-6 months",
     tagline: "Restoring the four-muscle team that powers every throw.",
     description:
-      "The rotator cuff is a group of four muscles that stabilize and move the shoulder. Tears or tendinopathy arise from overhead sports, falls, or overuse. Rehab prioritizes restoring pain-free range of motion, then progressive strengthening of the cuff and scapular muscles.",
+      "The rotator cuff is a group of four muscles that stabilize and move the shoulder. Tears or tendinopathy arise from overhead sports, falls, or overuse. Rehab prioritizes restoring pain-free range of motion, then progressive strengthening of the cuff and scapular muscles. Conservative rehab is always good to consider before surgery, but if it has been tried and there is still pain, it is a good idea to speek with your orthopedist to talk about a possible surgery.",
     thumbnail:
-      "https://images.pexels.com/photos/5327584/pexels-photo-5327584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://centerforspecialtycare.com/wp-content/uploads/2026/03/the-rotator-cuff-revealed-anatomy-injuries-and-what-a-tear-really-means-image-1024x683.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     phases: [
       {
         title: "Pain Management",
@@ -201,12 +201,12 @@ export const INJURIES: Injury[] = [
     ],
     videos: [
       {
-        title: "Rotator Cuff Rehab Exercises",
-        youtube_id: "d2HYF1AqcXs",
+        title: "Rotator Cuff Tear Rehab Exercises",
+        youtube_id: "https://www.youtube.com/watch?v=70UxCj6AoPos",
       },
       {
         title: "Scapular Strengthening for Shoulder Health",
-        youtube_id: "MJvMRFJlFHU",
+        youtube_id: "https://www.youtube.com/watch?v=1mPLuz3Ro_8",
       },
     ],
     tips: [
@@ -226,7 +226,7 @@ export const INJURIES: Injury[] = [
     description:
       "Lateral epicondylitis (tennis elbow) is caused by overuse of the forearm muscles that attach to the outer elbow. Despite the name, it's common in any repetitive gripping activity. Heavy eccentric loading has the strongest evidence for full recovery.",
     thumbnail:
-      "https://images.pexels.com/photos/8154086/pexels-photo-8154086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://assets.yourpractice.online/2305/3d-images/tennis-elbow-surgery.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     phases: [
       {
         title: "Load Reduction",
@@ -256,11 +256,11 @@ export const INJURIES: Injury[] = [
     videos: [
       {
         title: "Tennis Elbow Exercises (Eccentric Protocol)",
-        youtube_id: "oF9jFuMqmLg",
+        youtube_id: "https://www.youtube.com/watch?v=8ZTXWe81k8E",
       },
       {
         title: "FlexBar Tyler Twist Technique",
-        youtube_id: "ZR-PEaFKJPQ",
+        youtube_id: "https://www.youtube.com/watch?v=vgQfdASutpg",
       },
     ],
     tips: [
@@ -278,9 +278,9 @@ export const INJURIES: Injury[] = [
     recovery_time: "2-6 weeks",
     tagline: "Quieting the tibia so you can run pain-free again.",
     description:
-      "Medial tibial stress syndrome (shin splints) causes pain along the inner shin edge, typically in runners who increase mileage too quickly. Recovery involves load management, calf strengthening, and a gradual return-to-run plan.",
+      "Medial tibial stress syndrome (shin splints) causes pain along the inner shin edge, typically in runners who increase mileage too quickly. Shin splints can be especially annoying because they can sometimes feel like a pain that no matter what you do, will not go away. Recovery involves load management, calf strengthening, and a gradual return-to-run plan.",
     thumbnail:
-      "https://images.pexels.com/photos/4397840/pexels-photo-4397840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://www.orthoinfo.org/contentassets/4c1eda9865e84afe9d18c35c9a04868b/a00407f01_lower-leg-anatomy_shin_splint_kh-compressor.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     phases: [
       {
         title: "Rest & Cross-Train",
@@ -310,11 +310,11 @@ export const INJURIES: Injury[] = [
     videos: [
       {
         title: "Shin Splints Treatment & Recovery",
-        youtube_id: "k3_aDcwM6BM",
+        youtube_id: "https://www.youtube.com/watch?v=187uHzAPPqk",
       },
       {
         title: "Return to Run Plan for Shin Splints",
-        youtube_id: "4H5W5PkGUNg",
+        youtube_id: "https://www.youtube.com/watch?v=MTP7hmbSSZo",
       },
     ],
     tips: [
