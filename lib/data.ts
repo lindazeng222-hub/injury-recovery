@@ -10,8 +10,7 @@ export const INJURIES: Injury[] = [
     tagline: "The comeback journey for a torn anterior cruciate ligament.",
     description:
       "The anterior cruciate ligament (ACL) stabilizes the knee during cutting and pivoting movements. A tear commonly happens during sudden stops, changes in direction, or awkward landings. There are surgical and non-surgical approaches to recovery and the route you take depends on activity level, age, symptoms, and long-term goals. Most teens will go the surgical route and the recovery road map for ACL reconstruction surgery is down below. Even then, there are still many decisions to make such as what graft to get and when to get surgery.",
-    thumbnail:
-      "https://images.pexels.com/photos/29807420/pexels-photo-29807420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    thumbnail: "/injuries/acl-tear.jpg",
     phases: [
       {
         title: "Pre-Hab",
@@ -64,8 +63,7 @@ export const INJURIES: Injury[] = [
     tagline: "Rolling back to stable, confident footwork.",
     description:
       "An ankle sprain occurs when the ligaments supporting the ankle stretch or tear, usually from rolling the foot inward. Most do not require surgery and heal well with progressive loading, balance training, and proprioception work to prevent re-injury. Listed below is the average recovery timeline for a grade 2 ankle sprain.",
-    thumbnail:
-      "https://images.pexels.com/photos/4506109/pexels-photo-4506109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    thumbnail: "/injuries/ankle-sprain.jpg",
     phases: [
       {
         title: "Protection",
@@ -118,8 +116,7 @@ export const INJURIES: Injury[] = [
     tagline: "Rebuilding the engine behind every sprint.",
     description:
       "Hamstring strains range from mild (grade 1) to severe (grade 3 tear) and are among the most common sprint injuries. Recovery emphasizes eccentric strengthening, progressive loading, and sport-specific running mechanics.",
-    thumbnail:
-      "https://images.pexels.com/photos/3766111/pexels-photo-3766111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    thumbnail: "/injuries/hamstring-strain.jpg",
     phases: [
       {
         title: "Acute Phase",
@@ -171,8 +168,7 @@ export const INJURIES: Injury[] = [
     tagline: "Restoring the four-muscle team that powers every throw.",
     description:
       "The rotator cuff is a group of four muscles that stabilize and move the shoulder. Tears or tendinopathy arise from overhead sports, falls, or overuse. Rehab prioritizes restoring pain-free range of motion, then progressive strengthening of the cuff and scapular muscles. Conservative rehab is always good to consider before surgery, but if it has been tried and there is still pain, it is a good idea to speek with your orthopedist to talk about a possible surgery.",
-    thumbnail:
-      "https://images.pexels.com/photos/5327584/pexels-photo-5327584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    thumbnail: "/injuries/rotator-cuff.png",
     phases: [
       {
         title: "Pain Management",
@@ -225,8 +221,7 @@ export const INJURIES: Injury[] = [
     tagline: "Calming the lateral elbow so you can grip life again.",
     description:
       "Lateral epicondylitis (tennis elbow) is caused by overuse of the forearm muscles that attach to the outer elbow. Despite the name, it's common in any repetitive gripping activity. Heavy eccentric loading has the strongest evidence for full recovery.",
-    thumbnail:
-      "https://images.pexels.com/photos/8154086/pexels-photo-8154086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    thumbnail: "/injuries/tennis-elbow.webp",
     phases: [
       {
         title: "Load Reduction",
@@ -279,8 +274,7 @@ export const INJURIES: Injury[] = [
     tagline: "Quieting the tibia so you can run pain-free again.",
     description:
       "Medial tibial stress syndrome (shin splints) causes pain along the inner shin edge, typically in runners who increase mileage too quickly. Shin splints can be especially annoying because they can sometimes feel like a pain that no matter what you do, will not go away. Recovery involves load management, calf strengthening, and a gradual return-to-run plan.",
-    thumbnail:
-      "https://images.pexels.com/photos/4397840/pexels-photo-4397840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    thumbnail: "/injuries/shin-splints.jpg",
     phases: [
       {
         title: "Rest & Cross-Train",
