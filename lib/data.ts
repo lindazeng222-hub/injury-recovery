@@ -198,7 +198,7 @@ export const INJURIES: Injury[] = [
     videos: [
       {
         title: "Rotator Cuff Tear Rehab Exercises",
-        youtube_id: "70UxCj6AoPos",
+        youtube_id: "1Wy8jh4QQH8",
       },
       {
         title: "Scapular Strengthening for Shoulder Health",
