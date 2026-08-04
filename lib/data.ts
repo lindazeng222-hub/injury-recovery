@@ -152,7 +152,7 @@ export const INJURIES: Injury[] = [
       },
       {
         title: "Nordic Hamstring Curl Tutorial",
-        youtube_id: "_e9vFU9-tkcA",
+        youtube_id: "_e9vFU9-tkc",
       },
     ],
     tips: [
