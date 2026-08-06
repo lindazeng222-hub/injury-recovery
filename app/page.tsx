@@ -55,17 +55,21 @@ export default function HomePage() {
         <div className="bg-[#121212] border border-white/10 rounded-sm p-8 md:p-12 relative overflow-hidden">
           <div className="absolute top-0 left-0 w-1 h-full bg-[#FF3B30]" />
           <p className="text-xs uppercase tracking-[0.3em] font-bold text-[#FF3B30] mb-3">
-            Why this site exists
+            About Me
           </p>
           <h2 className="font-heading text-4xl md:text-5xl text-white uppercase tracking-tight mb-4">
-            I Hurt My Knee Too
+            Why I Built This Site
           </h2>
           <p className="text-[#A1A1AA] max-w-2xl leading-relaxed text-lg">
-            I&apos;m 15 and I injured my knee playing sports. When I started physical
-            therapy, I searched everywhere for good recovery info and a community
+            I&apos;m 15 and I tore my meniscus playing sports. This was my first major injury 
+            and I felt completely lost after it. I realized that recovery focuses heavily on 
+            the physical aspect but the mental side is rarely adressed. As an athlete 
+            who uses basketball and tennis as a way to temporarily escape from stress and the real world, being stuck 
+            on the sidelines took a huge toll on my mental. It felt like a part of my identity was stripped away from me. 
+            When I started physical therapy, I searched everywhere for good recovery info and a community
             of people who understood what I was going through. I couldn&apos;t find
             what I needed in one place — so I built it. This site is for every
-            athlete sitting on the sidelines wondering when they&apos;ll be back.
+            athlete sitting on the sidelines wondering when, if ever, they&apos;ll be back.
           </p>
         </div>
       </section>
